@@ -1,0 +1,22 @@
+{
+  "name": "http-sink-demo",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node --loader ts-node/esm index.ts",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "dependencies": {
+    "@accordkit/core": "workspace:*",
+    "@accordkit/tracer": "workspace:*",
+    "dotenv": "^17.2.3"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.0",
+    "@types/node": "^24.8.0",
+    "ts-node": "^10.9.2",
+    "prettier": "^3.6.2"
+  }
+}

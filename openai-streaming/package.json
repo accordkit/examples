@@ -1,0 +1,24 @@
+{
+  "name": "openai-streaming-demo",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "tsx index.ts",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "dependencies": {
+    "@accordkit/core": "workspace:*",
+    "@accordkit/provider-openai": "workspace:*",
+    "@accordkit/tracer": "workspace:*",
+    "dotenv": "^17.2.3",
+    "openai": "^4.104.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.8.0",
+    "prettier": "^3.6.2",
+    "tsx": "^4.20.6",
+    "typescript": "^5.5.0"
+  }
+}

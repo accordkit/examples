@@ -9,9 +9,6 @@ import OpenAI from 'openai';
 const logDir = process.env.ACCORDKIT_LOG_DIR ?? join(process.cwd(), '.accordkit-logs');
 const tracer = new Tracer({ sink: new FileSink({ base: logDir }) });
 
-console.log(`Tracer initialized with sessionId: ${tracer.sessionId}`);
-console.log(`Trace files are written to ${logDir}`);
-
 const apiKey = process.env.OPENAI_API_KEY;
 
 async function emitSampleTrace() {
