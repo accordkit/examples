@@ -1,5 +1,4 @@
-import { HttpSink, resolveIngestEndpoint } from '@accordkit/core';
-import { Tracer } from '@accordkit/tracer';
+import { HttpSink, resolveIngestEndpoint, Tracer } from '@accordkit/tracer';
 
 const endpoint = resolveIngestEndpoint({
   region: (process.env.ACCORDKIT_REGION as 'eu' | 'us' | 'auto') ?? 'eu',

@@ -1,8 +1,7 @@
 import { join } from 'node:path';
 
-import { FileSink } from '@accordkit/core';
 import { withOpenAI } from '@accordkit/provider-openai';
-import { Tracer } from '@accordkit/tracer';
+import { FileSink, Tracer } from '@accordkit/tracer';
 import 'dotenv/config';
 import OpenAI from 'openai';
 

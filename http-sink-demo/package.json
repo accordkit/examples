@@ -9,7 +9,6 @@
     "lint:fix": "eslint . --fix"
   },
   "dependencies": {
-    "@accordkit/core": "workspace:*",
     "@accordkit/tracer": "workspace:*",
     "dotenv": "^17.2.3"
   },
