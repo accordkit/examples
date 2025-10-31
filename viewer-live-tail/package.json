@@ -1,5 +1,5 @@
 {
-  "name": "openai-streaming-demo",
+  "name": "viewer-live-tail-demo",
   "version": "1.0.0",
   "private": true,
   "type": "module",
@@ -9,12 +9,12 @@
     "lint:fix": "eslint . --fix"
   },
   "dependencies": {
-    "@accordkit/provider-openai": "workspace:*",
     "@accordkit/tracer": "workspace:*",
     "dotenv": "^17.2.3",
-    "openai": "^4.104.0"
+    "express": "^4.21.2"
   },
   "devDependencies": {
+    "@types/express": "^4.17.21",
     "@types/node": "^24.8.0",
     "prettier": "^3.6.2",
     "tsx": "^4.20.6",
